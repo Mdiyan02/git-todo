@@ -2,6 +2,6 @@ package main
 
 type Todo struct {
 	ID        int
-	Title     string
+	Title     string // Todo title
 	Completed bool
 }
