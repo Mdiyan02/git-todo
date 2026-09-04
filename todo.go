@@ -1,7 +1,10 @@
 package main
+
 type Todo struct {
-	ID          int
-	Title       string
-	Description string
-	Completed   bool
+	ID        int
+	Title     string
+	Completed bool
+}
+
+func main() {
 }
