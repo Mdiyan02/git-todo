@@ -1,8 +1,10 @@
 package main
 
 type Todo struct {
-	ID        int
-	Title     string // Name of the task
-	Title     string // Todo title
-	Completed bool
+	ID           int
+	Title       string // Name of the task
+	Title       string // Todo title
+	Completed   bool
+        Priority    int
+        Description String //
 }
